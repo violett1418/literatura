@@ -40,7 +40,8 @@ Cuando se busca un libro:
 El proyecto sigue una estructura organizada por capas:
 
 src
-|
+
+
 client -> GutendexClient.java
 
 dto -> DatosAutor.java, DatosLibro.java, DatosRespuesta.java
