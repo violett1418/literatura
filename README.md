@@ -40,32 +40,14 @@ Cuando se busca un libro:
 El proyecto sigue una estructura organizada por capas:
 
 src
-│
-├── client
-│ └── GutendexClient.java
-│
-├── dto
-│ ├── DatosAutor.java
-│ ├── DatosLibro.java
-│ └── DatosRespuesta.java
-│
-├── model
-│ ├── Autor.java
-│ ├── Libro.java
-│ └── Idioma.java
-│
-├── repository
-│ ├── AutorRepository.java
-│ └── LibroRepository.java
-│
-├── service
-│ ├── ConsumoAPI.java
-│ └── ConvierteDatos.java
-│
-├── principal
-│ └── Principal.java
-│
-└── LiteraturaApplication.java
+|
+client -> GutendexClient.java
+dto -> DatosAutor.java, DatosLibro.java, DatosRespuesta.java
+model -> Autor.java, Libro.java, Idioma.java
+repository -> AutorRepository.java, LibroRepository.java
+service -> ConsumoAPI.java, ConvierteDatos.java
+principal -> Principal.java
+LiteraturaApplication.java
 
 
 # Base de datos
